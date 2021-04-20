@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main {
+    width: 100%;
+    height: 75vh;
+    background-image: url("banner.jpg");
+    background-size: cover;
+}
+nav {
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    line-height: 80px;
+}
+nav ul{
+    float: right;
+    margin-right: 200px;
+}
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    transition: 0.5s all;
+}
+nav ul li:hover {
+    background-color: rgb(39, 39, 39);
+    box-sizing: border-box;
+    border-radius: 25px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 30px;
+}
+nav ul li a:hover{
+    color: rgb(255, 255, 255);
+}
+h2 {
+    color: white;
+    margin-left: 100px;
+}
+.one {
+    width: 100%;
+    height: 75vh;
+    background-color: black;
+    padding: 100px 75px;
+}
+.img1 {
+    width: 50%;
+    float: left;
+}
+.text1 {
+    width: 50%;
+    float: left;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+h1,p{
+    color: white;
+}
+.two {
+    width: 100%;
+    height: 75vh;
+    background-color: black;
+    padding: 100px 75px;
+}
+.img2 {
+    width: 45%;
+    float: right;
+    padding-right: 20px;
+}
+.text2 {
+    width: 55%;
+    float: left;
+    padding-top: 50px;
+}
+.three {
+    width: 100%;
+    height: 75vh;
+    background-color: black;
+    padding: 100px 75px;
+}
+.img3 {
+    width: 50%;
+    float: left;
+}
+.text3 {
+    width: 50%;
+    float: left;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+.main1 h1{
+    color: black;
+    font-size: 70px;
+    padding-top: 100px;
+    padding-left: 75px;
+    padding-bottom: 80px;
+}
+.main2 {
+    width: 100%;
+    height: 55vh;
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.main3 {
+    width: 100%;
+    height: 40vh;
+    padding: 30px 60px;
+}
+.main3 h1 {
+    color: black;
+    font-size: 50px;
+}
+.main3 p{
+    color: black;
+    font-size: 20px;
+}
+.card1 {
+    width: 33.3%;
+    float: left;
+    padding-right: 50px;
+}
+.card2 {
+    width: 33.3%;
+    float: left;
+    padding-left: 60px;
+}
+.card3 {
+    width: 33.3%;
+    float: left;
+    padding-left: 120px;
+}
+.btn {
+    width: 200px;
+    height: 50px;
+    margin-left: 30px;
+}
+.main4 {
+    width: 100%;
+    height: 40vh;
+    padding: 150px;
+}
+.main4 h1 {
+    font-size: 65px;
+}
+.main4 p {
+    font-size: 20px;
+}
+.main5 {
+    width: 100%;
+    height: 75vh;
+    margin-top: 70px;
+    padding: 50px;
+    background-color: gray;
+}
+.main6 {
+    width: 100%;
+    height: 53vh;
+    padding: 50px 50px 0px 50px;
+    background-color: gray;
+    display: flex;
+    justify-content: space-around;
+}
+.main7 {
+    width: 100%;
+    height: 53vh;
+    padding: 0px 50px 50px 50px;
+    background-color: gray;
+    display: flex;
+    justify-content: space-around;
+
+}
