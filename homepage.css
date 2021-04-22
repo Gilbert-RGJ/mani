@@ -281,3 +281,9 @@ footer{
     opacity: .4;
     font-weight: 200;
 }
+.input-group {
+    margin-left: 400px;
+}
+div input {
+    width: 850px;
+}
